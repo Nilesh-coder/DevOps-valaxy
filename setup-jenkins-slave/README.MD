@@ -45,6 +45,9 @@ chmod 700 known_hosts
 Configure the node as shown here
 `Manage Jenkins` > `Manage Nodes` > `New Node`
 ![Jenkins Master and Slave Configuration](https://raw.githubusercontent.com/miztiik/DevOps-Demos/master/setup-jenkins-slave/images/Slave-Node-Configuration-01.png)
+
+note: while providing remote root directory it should be under jenkins-slave-1 home directory any other place will give permission denied
+
 ### Test Jenkins Jobs
 1. Create “new item”
 1. Enter an item name – `My-First-Project`
